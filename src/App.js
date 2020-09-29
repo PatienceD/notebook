@@ -1,5 +1,6 @@
 import React from 'react';
-import Nav from "./Nav.js";
+import Nav from "./components/Nav/Nav.js";
+import Intro from "./components/Intro/Intro.js";
 // import logo from './logo.svg';
 import './App.css';
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App" >
       <Nav />
+      <Intro />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

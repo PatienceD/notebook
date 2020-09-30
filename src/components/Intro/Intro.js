@@ -1,28 +1,31 @@
 import React, { Component } from 'react'
 import '../../App.css';
+import portrait from '../img/me.jpeg';
 
-export default class Intro extends Component {
-
+class Intro extends Component {
 
     render() {
         return (
             <div>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-6-m'>
-                            <p>Amet veniam in voluptate dolor id non minim esse pariatur nulla. Aute et nisi ex culpa nisi mollit qui ex nostrud aliquip labore excepteur exercitation
-                            nostrud. Elit duis cillum quis culpa eiusmod proident Lorem ipsum consectetur in duis nulla et consequat. Irure non excepteur ullamco nulla
-                            laborum consequat Lorem sint fugiat.</p>
+                <div className="container">
+                    <div className="row" id="intro-section">
+                        <div className="col-6">
+                            <img src={portrait} className="selfie" alt="Portrait of Developer" />
                         </div>
-                        <div className='col-6-m'>
-                            <p>Mollit exercitation non consequat magna amet voluptate id velit aliquip voluptate pariatur dolor. Dolor velit eu cillum eu do officia voluptate
-                            anim tempor sit. Laboris est dolore duis exercitation laboris aute. In ea veniam proident sint esse officia magna labore eu voluptate aute.
-                            Fugiat pariatur minim ea labore eu elit sit ullamco et cupidatat excepteur. Laborum labore eu tempor cillum aliquip nisi enim nulla dolore sunt
-                            officia ipsum. Culpa enim occaecat cupidatat eu ad qui et laborum sit non velit.</p>
+                        <div className="col-6" id="short-about">
+                            <h1>Hey There</h1>
+                            <br></br>
+                            <p>My name is Patience Deaton, and I currently reside in Orlando FL. I'm a Full Stack Developer with a passion for Frontend, currently
+                                pursuing new opportunities.</p>
+                                <br></br>
+                            <button type="button" className="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autoComplete="off">Projects</button>
                         </div>
                     </div>
+                    <br></br>
                 </div>
             </div>
         )
     }
 }
+
+export default Intro;

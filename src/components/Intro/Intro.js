@@ -12,7 +12,7 @@ class Intro extends Component {
                         <div className="col-6">
                             <img src={portrait} className="selfie" alt="Portrait of Developer" />
                         </div>
-                        <div className="col-6" id="short-about">
+                        <div className="col-sm-6" id="short-about">
                             <h1>Hey There</h1>
                             <br></br>
                             <p>My name is Patience Deaton, and I currently reside in Orlando FL. I'm a Full Stack Developer with a passion for Frontend, currently

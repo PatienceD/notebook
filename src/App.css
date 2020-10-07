@@ -41,7 +41,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -159,6 +159,9 @@ body {
   img.selfie {
     max-width: 90%;
   }
+  #arrow-down {
+    display: none;
+  }
 }
 
 @media screen and (orientation: landscape) {
@@ -169,7 +172,7 @@ body {
 
 #intro-section {
   padding: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 #short-about {
@@ -181,8 +184,55 @@ body {
   font-size: 1.3rem;
 }
 
+.btn {
+  padding-top: 1rem !important;
+  height: 4rem !important;
+}
+
 .btn:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+#arrow-down {
+  margin-top: 2.8rem;
+  margin-left: 2rem;
+}
+
+#arrow-down a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+}
+
+#arrow-down a span {
+  color: grey;
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#arrow-down a i {
+  color: grey;
+  opacity: 0.5;
+}
+
+#arrow-down a {
+  animation-name: bounce;
+  animation-duration: 2s;
+}
+
+#social-icons {
+  margin: 1.2rem;
+  color: #696969;
+}
+
+#social-icons:hover {
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9); */
+  transform: scale(1.1);
 }
 
 /*Intro section*/
@@ -190,8 +240,9 @@ body {
 /*Projects Section*/
 
 #project-con {
-  box-shadow: 0 4px 30px #C1C2C3;
-  border-radius: 1rem;
+  /* box-shadow: 0 4px 30px #C1C2C3;
+  border-radius: 1rem; */
+  margin: 4rem;
   padding: 4%;
 }
 
@@ -224,12 +275,41 @@ body {
 }
 
 #pro1, #pro2, #pro3 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.col-sm-4{
-  margin-bottom: 2rem;
+  margin: 3rem;
+  padding-top: 3rem;
 }
 
 /*Projects Section*/
+
+/*Skills Section*/
+
+#skill-section {
+  margin: 4rem;
+  padding: 4%;
+}
+
+#logo {
+  max-width: 98%;
+  height: auto;
+  margin: 2rem;
+}
+
+#frontend-row, #backend-row {
+  color: white;
+  padding: 2rem;
+  border: solid 1px black;
+  border-radius: 2rem;
+  background: linear-gradient(140deg, #000000 0%, #000000 60%, #ffffff 60%, #ffffff 60%)
+}
+
+#frontend-header, #backend-header{
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+
+/* .frontend-lang{
+  width: 100%;
+  background-color: #C365B6;
+} */
+
+/*Skills Section*/

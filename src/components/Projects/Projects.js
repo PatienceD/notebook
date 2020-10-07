@@ -3,7 +3,8 @@ import '../../App.css';
 import chronicguru from '../img/chronicguru.png';
 import learnsativa from '../img/learnsativa.png';
 import ladderlabs from '../img/ladderlabs.png';
-import dogclick from "../img/dogclick.PNG";
+import dogclick from "../img/dogclick.png";
+
 
 
 class Projects extends Component {
@@ -11,7 +12,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <div id="project-con">
+                <div id="project-con" >
                     <h1>Featured Projects</h1>
                     <hr></hr>
                     <div className="row" id="pro1">
@@ -24,9 +25,7 @@ class Projects extends Component {
                             <p>Anim pariatur occaecat nostrud non tempor ullamco id enim. Ad adipisicing dolore sint do. In deserunt cupidatat nulla ut ad mollit do esse esse.
                             Duis ut laboris id aute laborum velit cillum occaecat minim laborum fugiat laboris. Consectetur incididunt id ipsum officia. Irure consequat
                             ipsum id minim exercitation amet cillum.</p>
-                            <a href="https:www.chronicguru.com" target="_blank" rel="noopener noreferrer">
-                                <button type="button" className="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autoComplete="off">View Project</button>
-                            </a>
+                            <a href="https:www.chronicguru.com" target="_blank" rel="noopener noreferrer" className="btn btn-pink"><i className="fas fa-clone left"></i> View project</a>
                         </div>
                         <div className="col-sm-6">
                             <a href="https://www.learnsativa.org" target="_blank" rel="noopener noreferrer">
@@ -37,9 +36,7 @@ class Projects extends Component {
                             <p>Anim pariatur occaecat nostrud non tempor ullamco id enim. Ad adipisicing dolore sint do. In deserunt cupidatat nulla ut ad mollit do esse esse.
                             Duis ut laboris id aute laborum velit cillum occaecat minim laborum fugiat laboris. Consectetur incididunt id ipsum officia. Irure consequat
                             ipsum id minim exercitation amet cillum.</p>
-                            <a href="https://www.learnsativa.org" target="_blank" rel="noopener noreferrer">
-                                <button type="button" className="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autoComplete="off">View Project</button>
-                            </a>
+                            <a href="https://www.learnsativa.org" target="_blank" rel="noopener noreferrer" className="btn btn-pink"><i className="fas fa-clone left"></i> View project</a>
                         </div>
 
                     </div>
@@ -53,9 +50,9 @@ class Projects extends Component {
                             <p>Anim pariatur occaecat nostrud non tempor ullamco id enim. Ad adipisicing dolore sint do. In deserunt cupidatat nulla ut ad mollit do esse esse.
                             Duis ut laboris id aute laborum velit cillum occaecat minim laborum fugiat laboris. Consectetur incididunt id ipsum officia. Irure consequat
                             ipsum id minim exercitation amet cillum.</p>
-                            <a href="https://patienced.github.io/Dog-Click-Game/" target="_blank" rel="noopener noreferrer">
-                                <button type="button" className="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autoComplete="off">View Project</button>
-                            </a>
+                            <a href="https://patienced.github.io/Dog-Click-Game/" target="_blank" rel="noopener noreferrer" className="btn btn-pink"><i className="fas fa-clone left"></i> View project</a>
+                            <a href="https://github.com/PatienceD/Dog-Click-Game" target="_blank" rel="noopener noreferrer" className="btn btn-pink"><i className="fas fa-clone left"></i> View Github Repo</a>
+
                         </div>
                         <div className="col-sm-6">
                             <a href="https://ladderlabs.io" target="_blank" rel="noopener noreferrer">
@@ -66,9 +63,7 @@ class Projects extends Component {
                             <p>Anim pariatur occaecat nostrud non tempor ullamco id enim. Ad adipisicing dolore sint do. In deserunt cupidatat nulla ut ad mollit do esse esse.
                             Duis ut laboris id aute laborum velit cillum occaecat minim laborum fugiat laboris. Consectetur incididunt id ipsum officia. Irure consequat
                             ipsum id minim exercitation amet cillum.</p>
-                            <a href="https://ladderlabs.io" target="_blank" rel="noopener noreferrer">
-                                <button type="button" className="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autoComplete="off">View Project</button>
-                            </a>
+                            <a href="https://ladderlabs.io" target="_blank" rel="noopener noreferrer" className="btn btn-pink"><i className="fas fa-clone left"></i> View project</a>
                         </div>
                     </div>
                 </div>

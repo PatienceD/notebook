@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro.js";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Reviews from "./components/Reviews/Reviews"
 // import logo from './logo.svg';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Nav />
       <Intro />
       <Projects />
+      <Reviews />
       <Skills />
       <Contact />
 
